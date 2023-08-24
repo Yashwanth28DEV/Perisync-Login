@@ -22,12 +22,10 @@
 }
 .img{
     height: 70vh;
-    /* background-color: yellow; */
 }
 .container2{
     width: 55%;
     height: 100%;
-    /* background-color: rgb(205, 153, 153); */
 }
 .blue{
     color: blue;
@@ -46,14 +44,12 @@
 .loginpage>label{
     margin-left: -2%;
     color: grey;
-    /* width: ; */
     font-size: smaller;
 }
 .left{
     border-bottom: solid grey 0.2px;
     width: 30%;
     margin-left: 20%;
-    /* margin-top: -2%; */
 }
 .right{
     border-bottom: solid grey 0.2px;
@@ -71,12 +67,10 @@
     margin-top: 7%;
     display: flex;
     flex-direction: row;
-    /* justify-content: start; */
 }
 .google,.facebook{
     width: 80%;
     display: flex;
-    /* flex-direction: row; */
     border: solid grey 0.2px;
     margin-left: 5%;
     border-radius: 5%;
@@ -111,7 +105,6 @@ footer>span:hover{
         margin-top: 13%;
         width: 98%;
         overflow: hidden;
-        /* justify-content: start; */
     } 
     .loginpage{
         display: flex;
@@ -147,7 +140,6 @@ footer>span:hover{
 
     }
     footer>h5{
-        /* margin-left: 13%; */
         font-size: medium;
     }
     footer>span{
