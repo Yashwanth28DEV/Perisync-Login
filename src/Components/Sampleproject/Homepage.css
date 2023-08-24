@@ -1,0 +1,161 @@
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.container1{
+    margin-left: 10%;
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: red; */
+    /* margin-top: ; */
+}
+.container1>h5{
+    font-size: small;
+    /* font-weight: lighter; */
+    color: grey;
+}
+.containerimg{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    height: 70vh;
+    /* background-color: yellow; */
+}
+.container2{
+    width: 55%;
+    height: 100%;
+    /* background-color: rgb(205, 153, 153); */
+}
+.blue{
+    color: blue;
+    margin-left: 20%;
+}
+.loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.loginpage>h3{
+    margin-left: -13%;
+}
+.loginpage>label{
+    margin-left: -2%;
+    color: grey;
+    /* width: ; */
+    font-size: smaller;
+}
+.left{
+    border-bottom: solid grey 0.2px;
+    width: 30%;
+    margin-left: 20%;
+    /* margin-top: -2%; */
+}
+.right{
+    border-bottom: solid grey 0.2px;
+    width: 30%;
+}
+.brd{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.or{
+    margin-top: 2%;
+}
+.socialmedia{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: start; */
+}
+.google,.facebook{
+    width: 80%;
+    display: flex;
+    /* flex-direction: row; */
+    border: solid grey 0.2px;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+footer{
+    margin-top: 5%;
+}
+footer>h5{
+    display: inline-block;
+}
+footer>span{
+    color: blue;
+    margin-left: 0%;
+}
+footer>span:hover{
+    cursor: pointer;
+}
+#forum{
+    width: 40%;
+}
+#btn{
+    width: 40%;
+}
+
+@media all and (max-width:328px) {
+    .containerimg{
+        width: 0%;
+        overflow: hidden;
+
+    } 
+    .container2{
+        margin-top: 13%;
+        width: 98%;
+        overflow: hidden;
+        /* justify-content: start; */
+    } 
+    .loginpage{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    .loginpage>h3{
+        margin-left: 13%;
+        font-size: medium;
+    }
+    .loginpage>label{
+        font-size: x-small;
+        margin-left: 12%;
+    }
+    #forum{
+        margin-left: 12%;
+        width: 80%;
+    }
+    .blue{
+        margin-left: 60%;
+        font-size: small;
+    }
+    #btn{
+        margin-left: 12%;
+        width: 80%;
+    }
+    .socialmedia{
+        margin-left: 25%;
+    }
+    footer{
+        margin-left: 19%;
+        overflow: hidden;
+
+    }
+    footer>h5{
+        /* margin-left: 13%; */
+        font-size: medium;
+    }
+    footer>span{
+        font-size: medium;
+        
+    }
+    .body{
+        overflow-x: hidden;
+    }
+}
+
