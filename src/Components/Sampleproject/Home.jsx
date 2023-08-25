@@ -3,7 +3,7 @@ import "../Sampleproject/Homepage.css"
 import {FcGoogle} from 'react-icons/fc'
 import {FiFacebook} from 'react-icons/fi'
 import {BiMessage} from 'react-icons/bi'
-import "../Sampleproject/Mediaquerie.css"
+
 
 
 function Home() {
